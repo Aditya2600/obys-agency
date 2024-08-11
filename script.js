@@ -125,7 +125,7 @@ function cursorAnimation(){
         })
         flag = 1
     }else{
-        video.play(),
+        video.pause(),
         video.style.opacity = 0
         document.querySelector('#video-cursor').innerHTML = `<i class="ri-play-mini-fill"></i>`
         gsap.to('#video-cursor',{
